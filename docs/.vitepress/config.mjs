@@ -6,13 +6,6 @@ export default defineConfig({
   title: "皓际大冒险Mod教程",
   base: process.env.NODE_ENV === "development" ? "/" : "/HGModWiki/",
   description: "A VitePress Site",
-  vite: {
-    resolve: {
-      alias: {
-        "@/": "./docs"
-      }
-    }
-  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
